@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vertretungsplan FTS</string>
+    <string name="password">Passwort</string>
+    <string name="username">Benutzername</string>
+    <string name="grade">Klasse</string>
+    <string name="save">Speichern</string>
+    <string name="reload">Aktualisieren!</string>
+    <string name="hompage">Hompage FTS</string>
+    <string name="settings">Einstellungen</string>
+    <string name="error_dialog_title">Fehler</string>
+    <string name="error_dialog_invalid_login">Benutzername oder Password sind falsch!</string>
+    <string name="error_dialog_unknown_host">Konnte keine Verbindung zum Server herstellen!</string>
+    <string name="error_dialog_bt_retry_label">Erneut versuchen</string>
+    <string name="error_dialog_bt_settings_label">Einstellungen</string>
+</resources>

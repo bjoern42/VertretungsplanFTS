@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_setting_padding">30dip</dimen>
+    <dimen name="row_entry_border">0.5dip</dimen>
+    <dimen name="row_header_border">5dip</dimen>
+    
+    <dimen name="row_entry_padding">2dip</dimen>
+    <dimen name="row_date_entry_padding">10dip</dimen>
+    
+</resources>
