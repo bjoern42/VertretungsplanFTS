@@ -4,10 +4,10 @@
     <color name="row_entry_odd_background">#909090</color>
     <color name="row_entry_header_background">#555555</color>
     <color name="row_entry_date_background">#333333</color>
-    
     <color name="row_entry_text">#FFFFFF</color>
     <color name="row_header_text">#FFFFFF</color>
     <color name="row_date_text">#009FFF</color>
+    <color name="row_no_changes_text">#FFFFFF</color>
     
     <color name="rect_border_color">#000000</color>
     <color name="line_border_color">#808080</color>

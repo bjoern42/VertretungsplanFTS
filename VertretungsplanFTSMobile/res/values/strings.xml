@@ -8,9 +8,11 @@
     <string name="reload">Aktualisieren!</string>
     <string name="hompage">Hompage FTS</string>
     <string name="settings">Einstellungen</string>
+    <string name="no_changes">Keine Änderungen</string>
     <string name="error_dialog_title">Fehler</string>
     <string name="error_dialog_invalid_login">Benutzername oder Password sind falsch!</string>
     <string name="error_dialog_unknown_host">Konnte keine Verbindung zum Server herstellen!</string>
     <string name="error_dialog_bt_retry_label">Erneut versuchen</string>
     <string name="error_dialog_bt_settings_label">Einstellungen</string>
+    <string name="error_table_size_zero">Mit den runtergeladenen Vertretungsplänen stimmt etwas nicht</string>
 </resources>

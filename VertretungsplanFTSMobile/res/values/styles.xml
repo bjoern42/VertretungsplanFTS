@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppTheme" parent="Theme.Sherlock">
+    </style>
+    
     <style name="text_row_entry">
         <item name="android:textSize">15sp</item>
 	    <item name="android:textStyle">normal</item>
@@ -14,5 +17,10 @@
         <item name="android:textSize">15sp</item>
 	    <item name="android:textStyle">normal</item>
 	    <item name="android:textColor">@color/row_date_text</item>
+    </style>
+    <style name="text_row_no_changes">
+        <item name="android:textSize">32sp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:textColor">@color/row_no_changes_text</item>
     </style>
 </resources>

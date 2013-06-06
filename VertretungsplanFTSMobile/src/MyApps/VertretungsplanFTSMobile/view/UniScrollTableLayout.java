@@ -20,6 +20,8 @@ public class UniScrollTableLayout extends TableLayout{
 		vScroll = new MyVerticalScrollView(context);
 		table = new TableLayout(context);
 
+		hScroll.setFillViewport(true);
+
 		hScroll.addView(vScroll);
 		vScroll.addView(table);
 		super.addView(hScroll);

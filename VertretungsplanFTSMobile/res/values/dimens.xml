@@ -6,5 +6,6 @@
     
     <dimen name="row_entry_padding">2dip</dimen>
     <dimen name="row_date_entry_padding">10dip</dimen>
+    <dimen name="no_changes_border">20dip</dimen>
     
 </resources>

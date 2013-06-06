@@ -64,15 +64,19 @@ public class ActivityTimeTable extends SherlockActivity implements TableListener
     
 	@Override
 	public void onSuccess(final List<TimeTable> pTables) {
-		runOnUiThread(new Runnable() {
-			@Override
-			public void run() {
-				tables = pTables;
-				setProgressBarVisibility(View.INVISIBLE);
-				Log.i(TAG,""+tables.size()+" tables successfully downloaded!");
-				adapter.update(filterTimeTables(tables, ActivitySettings.getGrade()));
-			}
-		});
+		if(pTables.size() > 0){
+			runOnUiThread(new Runnable() {
+				@Override
+				public void run() {
+					tables = pTables;
+					setProgressBarVisibility(View.INVISIBLE);
+					Log.i(TAG,""+tables.size()+" tables successfully downloaded!");
+					adapter.update(filterTimeTables(tables, ActivitySettings.getGrade()));
+				}
+			});
+		}else{
+			onFailure(new Exception(getString(R.string.error_table_size_zero)));
+		}
 	}
 	
 	@Override
